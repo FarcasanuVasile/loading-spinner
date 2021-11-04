@@ -1,0 +1,914 @@
+html,
+body,
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.dots-container {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  position: relative;
+}
+
+.dot {
+  position: absolute;
+  left: calc(50% - 5px);
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  -webkit-animation: rotate;
+          animation: rotate;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-delay: 0;
+          animation-delay: 0;
+  background-color: cadetblue;
+  -webkit-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+}
+
+.dot-1 {
+  -webkit-animation-delay: .3s;
+          animation-delay: .3s;
+}
+
+.dot-2 {
+  -webkit-animation-delay: .6s;
+          animation-delay: .6s;
+}
+
+.dot-3 {
+  -webkit-animation-delay: .9s;
+          animation-delay: .9s;
+}
+
+.dot-4 {
+  -webkit-animation-delay: 1.2s;
+          animation-delay: 1.2s;
+}
+
+.dot-5 {
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
+}
+
+.dot-6 {
+  -webkit-animation-delay: 1.8s;
+          animation-delay: 1.8s;
+}
+
+.dot-7 {
+  -webkit-animation-delay: 2.1s;
+          animation-delay: 2.1s;
+}
+
+.dot-8 {
+  -webkit-animation-delay: 2.4s;
+          animation-delay: 2.4s;
+}
+
+.dot-9 {
+  -webkit-animation-delay: 2.7s;
+          animation-delay: 2.7s;
+}
+
+.dot-10 {
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+}
+
+.dot-11 {
+  -webkit-animation-delay: 3.3s;
+          animation-delay: 3.3s;
+}
+
+@-webkit-keyframes rotate {
+  0% {
+    -webkit-transform: translate(0px, 0px);
+            transform: translate(0px, 0px);
+  }
+  1% {
+    -webkit-transform: translate(1px, 0px);
+            transform: translate(1px, 0px);
+  }
+  2% {
+    -webkit-transform: translate(2px, 0px);
+            transform: translate(2px, 0px);
+  }
+  3% {
+    -webkit-transform: translate(3px, 0px);
+            transform: translate(3px, 0px);
+  }
+  4% {
+    -webkit-transform: translate(4px, 0.5px);
+            transform: translate(4px, 0.5px);
+  }
+  5% {
+    -webkit-transform: translate(5px, 0.75px);
+            transform: translate(5px, 0.75px);
+  }
+  6% {
+    -webkit-transform: translate(6px, 1px);
+            transform: translate(6px, 1px);
+  }
+  7% {
+    -webkit-transform: translate(7px, 1.25px);
+            transform: translate(7px, 1.25px);
+  }
+  8% {
+    -webkit-transform: translate(8px, 1.75px);
+            transform: translate(8px, 1.75px);
+  }
+  9% {
+    -webkit-transform: translate(9px, 2.25px);
+            transform: translate(9px, 2.25px);
+  }
+  10% {
+    -webkit-transform: translate(10px, 2.75px);
+            transform: translate(10px, 2.75px);
+  }
+  11% {
+    -webkit-transform: translate(11px, 3.25px);
+            transform: translate(11px, 3.25px);
+  }
+  12% {
+    -webkit-transform: translate(12px, 4px);
+            transform: translate(12px, 4px);
+  }
+  13% {
+    -webkit-transform: translate(13px, 5px);
+            transform: translate(13px, 5px);
+  }
+  14% {
+    -webkit-transform: translate(14px, 5.75px);
+            transform: translate(14px, 5.75px);
+  }
+  15% {
+    -webkit-transform: translate(15px, 7px);
+            transform: translate(15px, 7px);
+  }
+  16% {
+    -webkit-transform: translate(16px, 8px);
+            transform: translate(16px, 8px);
+  }
+  17% {
+    -webkit-transform: translate(17px, 9.5px);
+            transform: translate(17px, 9.5px);
+  }
+  18% {
+    -webkit-transform: translate(17.5px, 10.5px);
+            transform: translate(17.5px, 10.5px);
+  }
+  19% {
+    -webkit-transform: translate(18px, 11px);
+            transform: translate(18px, 11px);
+  }
+  20% {
+    -webkit-transform: translate(18.5px, 12.5px);
+            transform: translate(18.5px, 12.5px);
+  }
+  21% {
+    -webkit-transform: translate(19px, 13.5px);
+            transform: translate(19px, 13.5px);
+  }
+  22% {
+    -webkit-transform: translate(19.5px, 14.5px);
+            transform: translate(19.5px, 14.5px);
+  }
+  23% {
+    -webkit-transform: translate(19.5px, 18px);
+            transform: translate(19.5px, 18px);
+  }
+  24% {
+    -webkit-transform: translate(20px, 19px);
+            transform: translate(20px, 19px);
+  }
+  25% {
+    -webkit-transform: translate(20px, 20px);
+            transform: translate(20px, 20px);
+  }
+  26% {
+    -webkit-transform: translate(20px, 21px);
+            transform: translate(20px, 21px);
+  }
+  27% {
+    -webkit-transform: translate(20px, 22px);
+            transform: translate(20px, 22px);
+  }
+  28% {
+    -webkit-transform: translate(19.5px, 23px);
+            transform: translate(19.5px, 23px);
+  }
+  29% {
+    -webkit-transform: translate(19.5px, 24px);
+            transform: translate(19.5px, 24px);
+  }
+  30% {
+    -webkit-transform: translate(19.25px, 25px);
+            transform: translate(19.25px, 25px);
+  }
+  31% {
+    -webkit-transform: translate(18.75px, 26px);
+            transform: translate(18.75px, 26px);
+  }
+  32% {
+    -webkit-transform: translate(18.5px, 27px);
+            transform: translate(18.5px, 27px);
+  }
+  33% {
+    -webkit-transform: translate(18px, 28px);
+            transform: translate(18px, 28px);
+  }
+  34% {
+    -webkit-transform: translate(17px 0.75px, 29px);
+            transform: translate(17px 0.75px, 29px);
+  }
+  35% {
+    -webkit-transform: translate(17px, 30px);
+            transform: translate(17px, 30px);
+  }
+  36% {
+    -webkit-transform: translate(16.5px, 31px);
+            transform: translate(16.5px, 31px);
+  }
+  37% {
+    -webkit-transform: translate(15.75px, 32px);
+            transform: translate(15.75px, 32px);
+  }
+  38% {
+    -webkit-transform: translate(14.75px, 33px);
+            transform: translate(14.75px, 33px);
+  }
+  39% {
+    -webkit-transform: translate(13.75px, 34.25px);
+            transform: translate(13.75px, 34.25px);
+  }
+  40% {
+    -webkit-transform: translate(12.75px, 35px);
+            transform: translate(12.75px, 35px);
+  }
+  41% {
+    -webkit-transform: translate(11.75px, 36px);
+            transform: translate(11.75px, 36px);
+  }
+  42% {
+    -webkit-transform: translate(10.25px, 37px);
+            transform: translate(10.25px, 37px);
+  }
+  43% {
+    -webkit-transform: translate(8.5px, 38px);
+            transform: translate(8.5px, 38px);
+  }
+  44% {
+    -webkit-transform: translate(7px, 38.5px);
+            transform: translate(7px, 38.5px);
+  }
+  45% {
+    -webkit-transform: translate(6px, 39px);
+            transform: translate(6px, 39px);
+  }
+  46% {
+    -webkit-transform: translate(5px, 39.5px);
+            transform: translate(5px, 39.5px);
+  }
+  47% {
+    -webkit-transform: translate(4px, 39.5px);
+            transform: translate(4px, 39.5px);
+  }
+  48% {
+    -webkit-transform: translate(3px, 40px);
+            transform: translate(3px, 40px);
+  }
+  49% {
+    -webkit-transform: translate(2px, 40px);
+            transform: translate(2px, 40px);
+  }
+  50% {
+    -webkit-transform: translate(0px, 40px);
+            transform: translate(0px, 40px);
+  }
+  51% {
+    -webkit-transform: translate(0px, 40px);
+            transform: translate(0px, 40px);
+  }
+  52% {
+    -webkit-transform: translate(-2px, 40px);
+            transform: translate(-2px, 40px);
+  }
+  53% {
+    -webkit-transform: translate(-3px, 40px);
+            transform: translate(-3px, 40px);
+  }
+  54% {
+    -webkit-transform: translate(-4px, 39.5px);
+            transform: translate(-4px, 39.5px);
+  }
+  55% {
+    -webkit-transform: translate(-5px, 39.5px);
+            transform: translate(-5px, 39.5px);
+  }
+  56% {
+    -webkit-transform: translate(-6px, 39px);
+            transform: translate(-6px, 39px);
+  }
+  57% {
+    -webkit-transform: translate(-7px, 38.5px);
+            transform: translate(-7px, 38.5px);
+  }
+  58% {
+    -webkit-transform: translate(-8.5px, 38px);
+            transform: translate(-8.5px, 38px);
+  }
+  59% {
+    -webkit-transform: translate(-10.25px, 37px);
+            transform: translate(-10.25px, 37px);
+  }
+  60% {
+    -webkit-transform: translate(-11.75px, 36px);
+            transform: translate(-11.75px, 36px);
+  }
+  61% {
+    -webkit-transform: translate(-12.75px, 35px);
+            transform: translate(-12.75px, 35px);
+  }
+  62% {
+    -webkit-transform: translate(-13.75px, 34.25px);
+            transform: translate(-13.75px, 34.25px);
+  }
+  63% {
+    -webkit-transform: translate(-14.75px, 33px);
+            transform: translate(-14.75px, 33px);
+  }
+  64% {
+    -webkit-transform: translate(-15.75px, 32px);
+            transform: translate(-15.75px, 32px);
+  }
+  65% {
+    -webkit-transform: translate(-16.5px, 31px);
+            transform: translate(-16.5px, 31px);
+  }
+  66% {
+    -webkit-transform: translate(-17px, 30px);
+            transform: translate(-17px, 30px);
+  }
+  67% {
+    -webkit-transform: translate(-17.75px, 29px);
+            transform: translate(-17.75px, 29px);
+  }
+  68% {
+    -webkit-transform: translate(-18px, 28px);
+            transform: translate(-18px, 28px);
+  }
+  69% {
+    -webkit-transform: translate(-18.5px, 27px);
+            transform: translate(-18.5px, 27px);
+  }
+  70% {
+    -webkit-transform: translate(-18.75px, 26px);
+            transform: translate(-18.75px, 26px);
+  }
+  71% {
+    -webkit-transform: translate(-19.25px, 25px);
+            transform: translate(-19.25px, 25px);
+  }
+  72% {
+    -webkit-transform: translate(-19.5px, 24px);
+            transform: translate(-19.5px, 24px);
+  }
+  73% {
+    -webkit-transform: translate(-19.5px, 23px);
+            transform: translate(-19.5px, 23px);
+  }
+  74% {
+    -webkit-transform: translate(-20px, 22px);
+            transform: translate(-20px, 22px);
+  }
+  75% {
+    -webkit-transform: translate(-20px, 21px);
+            transform: translate(-20px, 21px);
+  }
+  76% {
+    -webkit-transform: translate(-20px, 20px);
+            transform: translate(-20px, 20px);
+  }
+  77% {
+    -webkit-transform: translate(-20px, 19px);
+            transform: translate(-20px, 19px);
+  }
+  78% {
+    -webkit-transform: translate(-19.5px, 18px);
+            transform: translate(-19.5px, 18px);
+  }
+  79% {
+    -webkit-transform: translate(-19.5px, 14.5px);
+            transform: translate(-19.5px, 14.5px);
+  }
+  80% {
+    -webkit-transform: translate(-19px, 13.5px);
+            transform: translate(-19px, 13.5px);
+  }
+  81% {
+    -webkit-transform: translate(-18.5px, 12.5px);
+            transform: translate(-18.5px, 12.5px);
+  }
+  82% {
+    -webkit-transform: translate(-18px, 11px);
+            transform: translate(-18px, 11px);
+  }
+  83% {
+    -webkit-transform: translate(-17.5px, 10.5px);
+            transform: translate(-17.5px, 10.5px);
+  }
+  84% {
+    -webkit-transform: translate(-17px, 9.5px);
+            transform: translate(-17px, 9.5px);
+  }
+  85% {
+    -webkit-transform: translate(-16px, 8px);
+            transform: translate(-16px, 8px);
+  }
+  86% {
+    -webkit-transform: translate(-15px, 7px);
+            transform: translate(-15px, 7px);
+  }
+  87% {
+    -webkit-transform: translate(-14px, 5.75px);
+            transform: translate(-14px, 5.75px);
+  }
+  88% {
+    -webkit-transform: translate(-13px, 5px);
+            transform: translate(-13px, 5px);
+  }
+  89% {
+    -webkit-transform: translate(-12px, 4px);
+            transform: translate(-12px, 4px);
+  }
+  90% {
+    -webkit-transform: translate(-11px, 3.25px);
+            transform: translate(-11px, 3.25px);
+  }
+  91% {
+    -webkit-transform: translate(-10px, 2.75px);
+            transform: translate(-10px, 2.75px);
+  }
+  92% {
+    -webkit-transform: translate(-9px, 2.25px);
+            transform: translate(-9px, 2.25px);
+  }
+  93% {
+    -webkit-transform: translate(-8px, 1.75px);
+            transform: translate(-8px, 1.75px);
+  }
+  94% {
+    -webkit-transform: translate(-7px, 1.25px);
+            transform: translate(-7px, 1.25px);
+  }
+  95% {
+    -webkit-transform: translate(-6px, 1px);
+            transform: translate(-6px, 1px);
+  }
+  96% {
+    -webkit-transform: translate(-5px, 0.75px);
+            transform: translate(-5px, 0.75px);
+  }
+  97% {
+    -webkit-transform: translate(-4px, 0.5px);
+            transform: translate(-4px, 0.5px);
+  }
+  98% {
+    -webkit-transform: translate(-3px, 0px);
+            transform: translate(-3px, 0px);
+  }
+  99% {
+    -webkit-transform: translate(-2px, 0px);
+            transform: translate(-2px, 0px);
+  }
+  100% {
+    -webkit-transform: translate(-1px, 0px);
+            transform: translate(-1px, 0px);
+  }
+}
+
+@keyframes rotate {
+  0% {
+    -webkit-transform: translate(0px, 0px);
+            transform: translate(0px, 0px);
+  }
+  1% {
+    -webkit-transform: translate(1px, 0px);
+            transform: translate(1px, 0px);
+  }
+  2% {
+    -webkit-transform: translate(2px, 0px);
+            transform: translate(2px, 0px);
+  }
+  3% {
+    -webkit-transform: translate(3px, 0px);
+            transform: translate(3px, 0px);
+  }
+  4% {
+    -webkit-transform: translate(4px, 0.5px);
+            transform: translate(4px, 0.5px);
+  }
+  5% {
+    -webkit-transform: translate(5px, 0.75px);
+            transform: translate(5px, 0.75px);
+  }
+  6% {
+    -webkit-transform: translate(6px, 1px);
+            transform: translate(6px, 1px);
+  }
+  7% {
+    -webkit-transform: translate(7px, 1.25px);
+            transform: translate(7px, 1.25px);
+  }
+  8% {
+    -webkit-transform: translate(8px, 1.75px);
+            transform: translate(8px, 1.75px);
+  }
+  9% {
+    -webkit-transform: translate(9px, 2.25px);
+            transform: translate(9px, 2.25px);
+  }
+  10% {
+    -webkit-transform: translate(10px, 2.75px);
+            transform: translate(10px, 2.75px);
+  }
+  11% {
+    -webkit-transform: translate(11px, 3.25px);
+            transform: translate(11px, 3.25px);
+  }
+  12% {
+    -webkit-transform: translate(12px, 4px);
+            transform: translate(12px, 4px);
+  }
+  13% {
+    -webkit-transform: translate(13px, 5px);
+            transform: translate(13px, 5px);
+  }
+  14% {
+    -webkit-transform: translate(14px, 5.75px);
+            transform: translate(14px, 5.75px);
+  }
+  15% {
+    -webkit-transform: translate(15px, 7px);
+            transform: translate(15px, 7px);
+  }
+  16% {
+    -webkit-transform: translate(16px, 8px);
+            transform: translate(16px, 8px);
+  }
+  17% {
+    -webkit-transform: translate(17px, 9.5px);
+            transform: translate(17px, 9.5px);
+  }
+  18% {
+    -webkit-transform: translate(17.5px, 10.5px);
+            transform: translate(17.5px, 10.5px);
+  }
+  19% {
+    -webkit-transform: translate(18px, 11px);
+            transform: translate(18px, 11px);
+  }
+  20% {
+    -webkit-transform: translate(18.5px, 12.5px);
+            transform: translate(18.5px, 12.5px);
+  }
+  21% {
+    -webkit-transform: translate(19px, 13.5px);
+            transform: translate(19px, 13.5px);
+  }
+  22% {
+    -webkit-transform: translate(19.5px, 14.5px);
+            transform: translate(19.5px, 14.5px);
+  }
+  23% {
+    -webkit-transform: translate(19.5px, 18px);
+            transform: translate(19.5px, 18px);
+  }
+  24% {
+    -webkit-transform: translate(20px, 19px);
+            transform: translate(20px, 19px);
+  }
+  25% {
+    -webkit-transform: translate(20px, 20px);
+            transform: translate(20px, 20px);
+  }
+  26% {
+    -webkit-transform: translate(20px, 21px);
+            transform: translate(20px, 21px);
+  }
+  27% {
+    -webkit-transform: translate(20px, 22px);
+            transform: translate(20px, 22px);
+  }
+  28% {
+    -webkit-transform: translate(19.5px, 23px);
+            transform: translate(19.5px, 23px);
+  }
+  29% {
+    -webkit-transform: translate(19.5px, 24px);
+            transform: translate(19.5px, 24px);
+  }
+  30% {
+    -webkit-transform: translate(19.25px, 25px);
+            transform: translate(19.25px, 25px);
+  }
+  31% {
+    -webkit-transform: translate(18.75px, 26px);
+            transform: translate(18.75px, 26px);
+  }
+  32% {
+    -webkit-transform: translate(18.5px, 27px);
+            transform: translate(18.5px, 27px);
+  }
+  33% {
+    -webkit-transform: translate(18px, 28px);
+            transform: translate(18px, 28px);
+  }
+  34% {
+    -webkit-transform: translate(17px 0.75px, 29px);
+            transform: translate(17px 0.75px, 29px);
+  }
+  35% {
+    -webkit-transform: translate(17px, 30px);
+            transform: translate(17px, 30px);
+  }
+  36% {
+    -webkit-transform: translate(16.5px, 31px);
+            transform: translate(16.5px, 31px);
+  }
+  37% {
+    -webkit-transform: translate(15.75px, 32px);
+            transform: translate(15.75px, 32px);
+  }
+  38% {
+    -webkit-transform: translate(14.75px, 33px);
+            transform: translate(14.75px, 33px);
+  }
+  39% {
+    -webkit-transform: translate(13.75px, 34.25px);
+            transform: translate(13.75px, 34.25px);
+  }
+  40% {
+    -webkit-transform: translate(12.75px, 35px);
+            transform: translate(12.75px, 35px);
+  }
+  41% {
+    -webkit-transform: translate(11.75px, 36px);
+            transform: translate(11.75px, 36px);
+  }
+  42% {
+    -webkit-transform: translate(10.25px, 37px);
+            transform: translate(10.25px, 37px);
+  }
+  43% {
+    -webkit-transform: translate(8.5px, 38px);
+            transform: translate(8.5px, 38px);
+  }
+  44% {
+    -webkit-transform: translate(7px, 38.5px);
+            transform: translate(7px, 38.5px);
+  }
+  45% {
+    -webkit-transform: translate(6px, 39px);
+            transform: translate(6px, 39px);
+  }
+  46% {
+    -webkit-transform: translate(5px, 39.5px);
+            transform: translate(5px, 39.5px);
+  }
+  47% {
+    -webkit-transform: translate(4px, 39.5px);
+            transform: translate(4px, 39.5px);
+  }
+  48% {
+    -webkit-transform: translate(3px, 40px);
+            transform: translate(3px, 40px);
+  }
+  49% {
+    -webkit-transform: translate(2px, 40px);
+            transform: translate(2px, 40px);
+  }
+  50% {
+    -webkit-transform: translate(0px, 40px);
+            transform: translate(0px, 40px);
+  }
+  51% {
+    -webkit-transform: translate(0px, 40px);
+            transform: translate(0px, 40px);
+  }
+  52% {
+    -webkit-transform: translate(-2px, 40px);
+            transform: translate(-2px, 40px);
+  }
+  53% {
+    -webkit-transform: translate(-3px, 40px);
+            transform: translate(-3px, 40px);
+  }
+  54% {
+    -webkit-transform: translate(-4px, 39.5px);
+            transform: translate(-4px, 39.5px);
+  }
+  55% {
+    -webkit-transform: translate(-5px, 39.5px);
+            transform: translate(-5px, 39.5px);
+  }
+  56% {
+    -webkit-transform: translate(-6px, 39px);
+            transform: translate(-6px, 39px);
+  }
+  57% {
+    -webkit-transform: translate(-7px, 38.5px);
+            transform: translate(-7px, 38.5px);
+  }
+  58% {
+    -webkit-transform: translate(-8.5px, 38px);
+            transform: translate(-8.5px, 38px);
+  }
+  59% {
+    -webkit-transform: translate(-10.25px, 37px);
+            transform: translate(-10.25px, 37px);
+  }
+  60% {
+    -webkit-transform: translate(-11.75px, 36px);
+            transform: translate(-11.75px, 36px);
+  }
+  61% {
+    -webkit-transform: translate(-12.75px, 35px);
+            transform: translate(-12.75px, 35px);
+  }
+  62% {
+    -webkit-transform: translate(-13.75px, 34.25px);
+            transform: translate(-13.75px, 34.25px);
+  }
+  63% {
+    -webkit-transform: translate(-14.75px, 33px);
+            transform: translate(-14.75px, 33px);
+  }
+  64% {
+    -webkit-transform: translate(-15.75px, 32px);
+            transform: translate(-15.75px, 32px);
+  }
+  65% {
+    -webkit-transform: translate(-16.5px, 31px);
+            transform: translate(-16.5px, 31px);
+  }
+  66% {
+    -webkit-transform: translate(-17px, 30px);
+            transform: translate(-17px, 30px);
+  }
+  67% {
+    -webkit-transform: translate(-17.75px, 29px);
+            transform: translate(-17.75px, 29px);
+  }
+  68% {
+    -webkit-transform: translate(-18px, 28px);
+            transform: translate(-18px, 28px);
+  }
+  69% {
+    -webkit-transform: translate(-18.5px, 27px);
+            transform: translate(-18.5px, 27px);
+  }
+  70% {
+    -webkit-transform: translate(-18.75px, 26px);
+            transform: translate(-18.75px, 26px);
+  }
+  71% {
+    -webkit-transform: translate(-19.25px, 25px);
+            transform: translate(-19.25px, 25px);
+  }
+  72% {
+    -webkit-transform: translate(-19.5px, 24px);
+            transform: translate(-19.5px, 24px);
+  }
+  73% {
+    -webkit-transform: translate(-19.5px, 23px);
+            transform: translate(-19.5px, 23px);
+  }
+  74% {
+    -webkit-transform: translate(-20px, 22px);
+            transform: translate(-20px, 22px);
+  }
+  75% {
+    -webkit-transform: translate(-20px, 21px);
+            transform: translate(-20px, 21px);
+  }
+  76% {
+    -webkit-transform: translate(-20px, 20px);
+            transform: translate(-20px, 20px);
+  }
+  77% {
+    -webkit-transform: translate(-20px, 19px);
+            transform: translate(-20px, 19px);
+  }
+  78% {
+    -webkit-transform: translate(-19.5px, 18px);
+            transform: translate(-19.5px, 18px);
+  }
+  79% {
+    -webkit-transform: translate(-19.5px, 14.5px);
+            transform: translate(-19.5px, 14.5px);
+  }
+  80% {
+    -webkit-transform: translate(-19px, 13.5px);
+            transform: translate(-19px, 13.5px);
+  }
+  81% {
+    -webkit-transform: translate(-18.5px, 12.5px);
+            transform: translate(-18.5px, 12.5px);
+  }
+  82% {
+    -webkit-transform: translate(-18px, 11px);
+            transform: translate(-18px, 11px);
+  }
+  83% {
+    -webkit-transform: translate(-17.5px, 10.5px);
+            transform: translate(-17.5px, 10.5px);
+  }
+  84% {
+    -webkit-transform: translate(-17px, 9.5px);
+            transform: translate(-17px, 9.5px);
+  }
+  85% {
+    -webkit-transform: translate(-16px, 8px);
+            transform: translate(-16px, 8px);
+  }
+  86% {
+    -webkit-transform: translate(-15px, 7px);
+            transform: translate(-15px, 7px);
+  }
+  87% {
+    -webkit-transform: translate(-14px, 5.75px);
+            transform: translate(-14px, 5.75px);
+  }
+  88% {
+    -webkit-transform: translate(-13px, 5px);
+            transform: translate(-13px, 5px);
+  }
+  89% {
+    -webkit-transform: translate(-12px, 4px);
+            transform: translate(-12px, 4px);
+  }
+  90% {
+    -webkit-transform: translate(-11px, 3.25px);
+            transform: translate(-11px, 3.25px);
+  }
+  91% {
+    -webkit-transform: translate(-10px, 2.75px);
+            transform: translate(-10px, 2.75px);
+  }
+  92% {
+    -webkit-transform: translate(-9px, 2.25px);
+            transform: translate(-9px, 2.25px);
+  }
+  93% {
+    -webkit-transform: translate(-8px, 1.75px);
+            transform: translate(-8px, 1.75px);
+  }
+  94% {
+    -webkit-transform: translate(-7px, 1.25px);
+            transform: translate(-7px, 1.25px);
+  }
+  95% {
+    -webkit-transform: translate(-6px, 1px);
+            transform: translate(-6px, 1px);
+  }
+  96% {
+    -webkit-transform: translate(-5px, 0.75px);
+            transform: translate(-5px, 0.75px);
+  }
+  97% {
+    -webkit-transform: translate(-4px, 0.5px);
+            transform: translate(-4px, 0.5px);
+  }
+  98% {
+    -webkit-transform: translate(-3px, 0px);
+            transform: translate(-3px, 0px);
+  }
+  99% {
+    -webkit-transform: translate(-2px, 0px);
+            transform: translate(-2px, 0px);
+  }
+  100% {
+    -webkit-transform: translate(-1px, 0px);
+            transform: translate(-1px, 0px);
+  }
+}
+/*# sourceMappingURL=style.css.map */
